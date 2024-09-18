@@ -106,8 +106,8 @@ The vanity wallet address has been successfully created with the specified prefi
 
 // Example usage
 const target = "0x9f3098a180fab2954fcc728a949a2d6cdfcc426f";
-const prefixLength = 2;
-const suffixLength = 2;
+const prefixLength = 5;
+const suffixLength = 5;
 cloneTarget(target, prefixLength, suffixLength)
   .then(() => console.log("Done"))
   .catch(console.error);
